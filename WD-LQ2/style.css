@@ -1,102 +1,95 @@
 body {
-      font-family: Arial, sans-serif;
-      background: #f0f2f5;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      min-height: 100;
-    }
+  font-family: Arial, sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
 
-    .header {
-      position: sticky;
-      top: 0;
-      background: #1877f2;
-      color: white;
-      padding: 5px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+  .header {
+  position: sticky;
+  top: 0;
+  background: blue;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
 
-    .navbar-left a {
-      color: white;
-      margin: 5px;
-      text-decoration: none;
-      font-weight: bold;
-    }
+  .navbar-left a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-    .navbar-left a:hover {
-      text-decoration: underline;
-    }
+  main {
+  display: flex;
+  flex: 1;
+  padding: 100px;
+  gap: 60px;
+}
 
-    main {
-      display: flex;
-      flex: 1;
-      padding: 5px;
-      gap: 5px;
-    }
+  .aside {
+  width: 250px;
+  padding: 15px;
+  background: white;
+  border-left: 1px solid #ccc;
+}
 
-    .news-feed {
-      flex: 30%;
-    }
+  .profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-    .card {
-      background: white;
-      border-radius: 10px;
-      padding: 10px;
-      margin-bottom: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
+  .profile img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
 
-    .aside {
-      flex: 10%;
-      background: white;
-      padding: 10px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      height: fit-content;
-    }
+  .friends {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
-    .profile {
-      text-align: center;
-      margin-bottom: 10px;
-    }
+  .friend {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
 
-    .profile img {
-      border-radius: 50%;
-      width: 10px;
-      height: 10px;
-      margin-bottom: 10px;
-    }
+  .friend img {
+  width: 100%;
+  border-radius: 10px;
+}
+    
+  .news-feed {
+  flex: 1;
+}
 
-    .friends {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
+  .card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
-    .friend {
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 10px;
-    }
+  .card img {
+  border-width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
 
-    .friend img {
-      width: 100%;
-      border-radius: 10px;
-    }
-
-    .friend span {
-      font-size: 14px;
-      color: #555;
-    }
-
-    footer {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 10px;
-    }
+  footer {
+  background: blue;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
