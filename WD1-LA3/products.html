@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Product Page</title>
   <link rel="stylesheet" href="style.css">
+  <script src="product.js"></script>
 </head>
 <body>
   <!-- Sticky Header -->
@@ -12,7 +13,7 @@
     <nav>
       <h2>MyProductPage</h2>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="#index.html">Home</a></li>
         <li><a href="products.html">Products</a></li>
         <li><a href="#contact.html">Contact Us</a></li>
         <li><a href="#about.html">About</a></li>
@@ -30,7 +31,7 @@
           <h4>Del Monte Juice Drink</h4>
           <p>1 L  ₱100.00</p>
           <p>It is convenient, refreshing, and vitamin-enriched fruit drink.</p>
-          <button onclick="addToCart('Del Monte Juice Drink')">Add to Cart</button>
+          <button onclick="addToCart('Del Monte Juice Drink', 100)">Add to Cart</button>
         </div>
 
         <div class="card">
@@ -38,7 +39,7 @@
           <h4>Chuckie</h4>
           <p>250ml ₱15.00</p>
           <p>This is nutritious chocolate milk drink for kids, rich and creamy.</p>
-          <button onclick="addToCart('Chuckie')">Add to Cart</button>
+          <button onclick="addToCart('Chuckie', 15)">Add to Cart</button>
         </div>
 
         <div class="card">
@@ -46,7 +47,7 @@
           <h4>Dutch Mill Delight</h4>
           <p>400ml  ₱50.00</p>
           <p>It is delicious probiotic drink for a healthy lifestyle.</p>
-          <button onclick="addToCart('Dutch Mill Delight')">Add to Cart</button>
+          <button onclick="addToCart('Dutch Mill Delight', 50)">Add to Cart</button>
         </div>
 
         <div class="card">
@@ -54,7 +55,7 @@
           <h4>Gatorade</h4>
           <p>350ml  ₱40.00</p>
           <p>It helps to maintain endurance and hydration.</p>
-          <button onclick="addToCart('Gatorade')">Add to Cart</button>
+          <button onclick="addToCart('Gatorade', 40)">Add to Cart</button>
         </div>
       </div>
 
@@ -65,7 +66,7 @@
           <h4>Choco Mucho</h4>
           <p>₱10.00</p>
           <p>This is rolled wafer, caramel, rice crispies, and creamy chocolate.</p>
-          <button onclick="addToCart('Choco Mucho')">Add to Cart</button>
+          <button onclick="addToCart('Choco Mucho', 10)">Add to Cart</button>
         </div>
 
         <div class="card">
@@ -73,7 +74,7 @@
           <h4>Lava Cake</h4>
           <p>₱10.00</p>
           <p>This is moist bar cake with rich, creamy chocolate filling.</p>
-          <button onclick="addToCart('Lava Cake')">Add to Cart</button>
+          <button onclick="addToCart('Lava Cake', 10)">Add to Cart</button>
         </div>
 
         <div class="card">
@@ -81,7 +82,7 @@
           <h4>Pizza</h4>
           <p>₱95.00</p>
           <p>This is freshly baked pizza with delicious toppings.</p>
-          <button onclick="addToCart('Pizza')">Add to Cart</button>
+          <button onclick="addToCart('Pizza', 95)">Add to Cart</button>
         </div>
 
         <div class="card">
@@ -89,7 +90,7 @@
           <h4>Pancake</h4>
           <p>₱20.00</p>
           <p>This is soft, fluffy pancake for your sweet cravings.</p>
-          <button onclick="addToCart('Pancake')">Add to Cart</button>
+          <button onclick="addToCart('Pancake', 20)">Add to Cart</button>
         </div>
       </div>
     </section>
