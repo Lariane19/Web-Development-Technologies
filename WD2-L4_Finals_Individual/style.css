@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: skyblue;
+}
+
+.login, .index {
+    border: 1px solid black;
+    width: 400px;
+    height: auto;
+    min-height: 350px;
+    background: url('ShootingStar.jpg') no-repeat center center;
+    background-size: cover;
+    color: wheat;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    backdrop-filter: brightness(40%);
+    padding: 40px;
+    width: 100%;
+    box-sizing: border-box; 
+    text-align: center;
+    border-radius: 20px;
+    
+    /* Flexbox Fixes */
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
+}
+
+/* Form Specifics */
+form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Button Styling */
+button, .btn-logout {
+    background: white;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    padding: 0 30px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+h2, h1 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button, .btn-logout {
+    display: block;
+    margin: 10px auto; 
+}
+
+button:hover, .btn-logout:hover {
+    background: rgb(30, 100, 200);
+    color: white;
+}
